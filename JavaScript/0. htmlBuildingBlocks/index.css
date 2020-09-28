@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+input[type=text] {
+    color: green;
+}
+
+input[type=button] {
+    color: blue;
+}
