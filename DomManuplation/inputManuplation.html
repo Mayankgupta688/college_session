@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input Manuplation</title>
+        <link href="./inputManuplation.css" rel="stylesheet" />
+    </head>
+
+    <body>
+
+        <h1 id="headerApplication" onmouseover="updateStyleToRed(event)" onmouseout="updateStyleToBlack(event)">This is a User Form</h1>
+        <h2  onmouseover="updateStyleToRed(event)" onmouseout="updateStyleToBlack(event)">This is Another Element</h2>
+        <div>
+            <label>Enter Name: </label>
+            <input class="userInput" id="username" type="text" />
+        </div><br/>
+
+        <div>
+            <label>Enter Age: </label>
+            <input class="userInput" id="userage" type="number" onchange="alertChangeData()" />
+        </div><br/>
+
+        <div>
+            <label>Enter Designation: </label>
+            <input id="userdesignation" type="text" />
+        </div><br/>
+
+        <div>
+            <input class="userInput" id="userButton" type="button" onclick="getUserDetails()" value="Get Values" />
+            <input class="userInput" id="userUpdateButton" type="button" onclick="updateValue()" value="Update Values" />
+            <input id="applyClass" type="button" onclick="applyClass()" value="Apply Class Dynamically" />
+        </div>
+
+        <script src="./inputManuplation.js"></script>
+    </body>
+</html>

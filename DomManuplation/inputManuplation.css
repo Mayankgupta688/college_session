@@ -1,0 +1,9 @@
+.userInput {
+    color: green;
+    border: 1px solid grey;
+}
+
+h1 {
+    border: 1px solid red;
+    padding: 10px;
+}
