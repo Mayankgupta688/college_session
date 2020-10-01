@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function PropsDataComponent(props) {
-    debugger;
     return (
         <div>
             <h1>Hello {props.dataObject[0]}, Your age is {props.dataObject[1]}</h1>
