@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import UserDetailsComponent from "./components/UserDetailsComponent";
+import LifeCycleComponent from "./components/LifeCycleComponent";
 
 
 ReactDOM.render((
     <div>
-        <UserDetailsComponent></UserDetailsComponent>
+        <LifeCycleComponent></LifeCycleComponent>
     </div>
 ), document.getElementById("root"));
