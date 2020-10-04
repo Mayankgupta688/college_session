@@ -1,0 +1,13 @@
+{
+    "container": {
+        "backgroundColor": "red",
+        "padding": "10px",
+        "margin": "10px"
+    }, "h1Element": {
+        "color": "blue"
+    }, "h2Element": {
+        "color": "orange"
+    }, "h3Element": {
+        "color": "yellow"
+    }
+}

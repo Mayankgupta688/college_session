@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import LifeCycleComponent from "./components/LifeCycleComponent";
+import ReactFormsComponent from "./components/ReactFormsComponent";
 
 
 ReactDOM.render((
     <div>
-        <LifeCycleComponent></LifeCycleComponent>
+        <ReactFormsComponent></ReactFormsComponent>
     </div>
 ), document.getElementById("root"));

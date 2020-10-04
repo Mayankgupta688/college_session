@@ -1,0 +1,27 @@
+
+.default {
+    background-color: red;
+    padding: 10px;
+}
+
+.default h1 {
+    color: green;
+}
+
+.default h2 {
+    color: grey;
+}
+
+
+.blueTheme {
+    background-color: blue;
+    padding: 10px;
+}
+
+.blueTheme h1 {
+    color: red;
+}
+
+.blueTheme h2 {
+    color: purple;
+}
