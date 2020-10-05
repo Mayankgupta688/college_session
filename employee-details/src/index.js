@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import ReactFormsComponent from "./components/ReactFormsComponent";
+import CreatingFormsWithHooks from "./components/CreatingFormsWithHooks";
 
 
 ReactDOM.render((
     <div>
-        <ReactFormsComponent></ReactFormsComponent>
+        <CreatingFormsWithHooks></CreatingFormsWithHooks>
     </div>
 ), document.getElementById("root"));
