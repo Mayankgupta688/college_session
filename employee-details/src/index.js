@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import CreatingFormsWithHooks from "./components/CreatingFormsWithHooks";
+import WorkingWithSpa from "./components/SimplePageApplication/WorkingWithSpa";
 
 
 ReactDOM.render((
     <div>
-        <CreatingFormsWithHooks></CreatingFormsWithHooks>
+        <WorkingWithSpa></WorkingWithSpa><hr/>
     </div>
 ), document.getElementById("root"));
